@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>OGI Gym</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1 {font-family: "Montserrat", sans-serif}
+    img {margin-bottom: -7px}
+    .w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+        <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+        <a href="gymwebpage.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+        <a href="../sci3010pro3/Registration.php" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Register</a>
+        <a href="../sci3010pro3/animation.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Animation</a>
+    </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+    <!-- Header -->
+    <div class="w3-opacity">
+        <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom">
+            <h1><b>OGI GYM</b></h1>
+            <p><b>Become a member now!</b></p>
+            <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+        </header>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+        <div class="w3-third">
+            <img src="https://www.fitcitystl.com/wp-content/uploads/2019/11/Free-Weights-2.jpg" style="width:100%">
+            <img src="https://images.squarespace-cdn.com/content/v1/568cf2d2c647ad1e51893ba4/1452078936387-OGSJO3FONHXVTNF9UJY4/17-RedFitnessLounge.jpg?format=2500w" style="width:100%">
+            <img src="https://www.clubfitness.us/wp-content/uploads/2020/12/7Q3A5303-1024x683.jpg" style="width:100%">
+            <img src="https://api.time.com/wp-content/uploads/2020/03/gym-coronavirus.jpg" style="width:100%">
+            <img src="https://fitnessvolt.com/wp-content/uploads/2020/12/powerlifting-guide-for-beginners.jpg" style="width:100%">
+            <img src="https://media.istockphoto.com/vectors/bodybuilder-with-a-barbell-vector-id468970276?k=20&m=468970276&s=612x612&w=0&h=GdBK7B8-QIXzwdQA3s0gnsZNvh0jRU0TThaLjVniD7I=" style="width:100%">
+        </div>
+
+        <div class="w3-third">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-465395694-1520015704.jpg?crop=0.854xw:0.615xh;0.0629xw,0.138xh&resize=480:*" style="width:100%">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Chris_Bumstead.png" style="width:100%">
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16185/production/_92810509_brittanyrhodes.jpg" style="width:100%">
+            <img src="https://www.ucitymo.org/ImageRepository/Document?documentID=8912" style="width:100%">
+            <img src="https://pictures.dealer.com/s/stcharleshyundai/0553/b18be0f1e1b8139024b0ef638e8cbecdx.jpg?impolicy=downsize&w=568" style="width:100%">
+            <img src="https://business.uoregon.edu/sites/business1.uoregon.edu/files/styles/banner/public/news/Enews-Covid-Gym-Safety-thumb-202101.jpg?itok=kFFfNUfR" style="width:100%">
+
+        </div>
+
+        <div class="w3-third">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/newscms/2019_05/2732526/190128-exercise-gym-ac-556p.jpg" style="width:100%">
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/01/07/11/1-4.jpg?quality=75&width=982&height=726&auto=webp" style="width:100%">
+            <img src="https://www.gannett-cdn.com/presto/2020/07/31/PAPP/d00cb47e-822e-49f9-82db-4dc021bc045b-OVOX_3.JPG?crop=4271,2402,x0,y217&width=3200&height=1800&format=pjpg&auto=webp" style="width:100%">
+            <img src="https://assets.vogue.com/photos/5f7b88c4a86ef9454d7e992a/master/w_2560%2Cc_limit/EQUINOX+%2520IN%2520THE%2520WILD%2520-%252012.jpg" style="width:100%">
+            <img src="https://escapefitness.com/media/wysiwyg/escape_fitness/blog/lr_Beach-Container-3.jpg" style="width:100%">
+            <img src="https://i.pinimg.com/originals/b8/b0/ab/b8b0ab7e91bfc93489cf1a2f8c221e65.jpg" style="width:100%">
+        </div>
+    </div>
+
+    <!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+    <a href="https://www.instagram.com/clubfitness.us/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by Oguzhan Tilisim</p>
+</footer>
+
+<script>
+    // Toggle grid padding
+    function myFunction() {
+        var x = document.getElementById("myGrid");
+        if (x.className === "w3-row") {
+            x.className = "w3-row-padding";
+        } else {
+            x.className = x.className.replace("w3-row-padding", "w3-row");
+        }
+    }
+
+    // Open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
